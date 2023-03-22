@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import Component from './Component';
 
-function App() {
-  return (
-    <div>
-      <h1>
-        Hello World! This is my first react project!
-      </h1>
-    </div>
-  );
+function App(){
+  return(
+    <>
+      <Component />
+    </>
+  )
 }
 
 export default App;
