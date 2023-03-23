@@ -1,14 +1,12 @@
 import './App.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Component from './Component';
 
 function App(){
-  return(
-    <>
-      <Component />
-    </>
-  )
+  const helloWorld = <h1>Hello World</h1>
+
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(helloWorld);
 }
 
 export default App;
